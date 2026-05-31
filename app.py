@@ -65,7 +65,7 @@ def get_W(head_name: str):
         ], dtype=float)
 
         W_V = np.eye(3)
-        default_bias = 2.0
+        default_bias = 4.0
 
     elif head_name == "position":
         W_Q = np.array([
@@ -81,7 +81,7 @@ def get_W(head_name: str):
         ], dtype=float)
 
         W_V = np.eye(3)
-        default_bias = 2.0
+        default_bias = 4.0
 
     else:
         W_Q = np.eye(3)
